@@ -1,3 +1,7 @@
+// Create Element <div id="root"></div>
+const rootDiv = document.createElement('div');
+rootDiv.id = 'root';
+document.body.appendChild(rootDiv);
 let root = document.querySelector('#root')
 
 // Style Connected
