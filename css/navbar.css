@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.list li {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    &:hover{
+        border-bottom: 2px solid #000000;
+    }
+}
+
+.listFirst{
+    border-bottom: 2px solid #000000;
+}
+
+.three-div {
+    display: flex;
+    align-items: center;
+}
+
+.input-item {
+    background: #F5F5F5;
+    width: 243px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.input-item input {
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+    padding-left: 13px;
+}
+
+.input-item img {
+    margin-left: 24px;
+    width: 30px;
+}
+
+.cruid {
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+    img {
+        width: 35px;
+    }
+}

@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-hero {
+    width: 217px;
+    height: 464px;
+    border-right: 0.5px solid #000000;
+    margin-top: -9px;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-hero {
+    img {
+        width: 1000px;
+        height: 400px;
+    }
+    margin-left: -200px;
+    margin-top: 30px;
+}
